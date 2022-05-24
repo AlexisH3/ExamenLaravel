@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+body{
+    background:rgb(100, 52, 189);
+}
+
+.contenedor{
+    background-color: #2c2b2b;
+    width: 450px;
+    height: 450px;
+    margin-left: 480px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    height: 50px;
+    padding-top: 35px;
+    font-size: 40px;
+    color: rgb(164, 226, 71);
+
+}
+form{
+
+    width: 300px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+input{
+    background-color: #feffff;
+    margin-left: 23px;
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+a{
+    color: rgb(164, 226, 71);
+    font-size: 18px;
+    margin-left: 108px;
+
+}
+
+button{
+    background-color: #15e986 ;
+    color: #050505;
+    font-size: 18px;
+    margin-left: 75px;
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #088b1e ;
+    cursor: pointer;
+    color: #ffffff;
+}

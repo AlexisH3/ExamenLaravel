@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(122, 55, 247);
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(164, 226, 71);
+    padding: 20px;
+    display: block;
+}
+p{
+    text-decoration: none;
+    color: white;
+    display: block;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    float: right;
+
+}
+
+.menu li a:hover{
+    background: #d1cdcd;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.preguntas{
+    margin-left: 30px;
+}
+.preguntas a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.preguntas a:hover{
+    color: rgb(162, 253, 24);
+
+}
+
+.infoPregunta{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.contenedorPregunta{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+button{
+    background-color: #0f1011 ;
+    color: white;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #ffffff ;
+    cursor: pointer;
+    color: black;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover{
+    background-color: #ffffff ;
+    color: black;
+}
+.reportes{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+

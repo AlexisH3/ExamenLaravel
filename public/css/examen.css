@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(122, 55, 247);
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+form{
+    width: 600px;
+    height: 450px;
+    margin-left: 50px;
+}
+h3{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 30px;
+    
+}
+p{
+    text-decoration: none;
+    color: black;
+    display: block;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    float: right;
+    
+
+}
+
+.menu li a:hover{
+    background: white;
+    color: black;
+    
+}
+.menu p{
+    color: white;
+}
+
+
+.textExamen{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.Pregunta{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.opciones{
+    width: 100 px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+button{
+    width: 140px;
+    height: 30px;
+    margin-left: 480px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #318d5a;
+    color: #f6fafa;
+    display: inline-block;
+}
+button:hover{
+    background-color: #088b1e ;
+    cursor: pointer;
+}
